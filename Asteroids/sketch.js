@@ -3,7 +3,8 @@ var aster = [];
 var laser = [];
 
 function setup() {
-createCanvas(400, 400);
+createCanvas(1200, 720);
+imageMode(CENTER);
 ship = new Ship();
 for (let i = 0; i < 5; i++) {
 aster.push(new Asteroid());
